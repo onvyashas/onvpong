@@ -19,55 +19,9 @@ This is a simple implementation of the **2048** game built using React. The game
 - **Game Restart:** Restart the game at any point.
 - **Styled UI:** A visually appealing board with smooth animations.
 
----
-
-## Installation & Running Locally
-
-1. **Clone the repository:**
-
-   ```sh
-   git clone https://github.com/vivek0902/2048-game-in-reactjs.git
-   cd 2048-game-in-reactjs
-   ```
-
-2. **Install dependencies:**
-
-   ```sh
-   npm install
-   ```
-
-3. **Start the development server:**
-   ```sh
-   npm start
-   ```
-   The game will run on `http://localhost:3000`.
 
 ---
 
-## How to Play
-
-- **Use Arrow Keys** (`← ↑ → ↓`) to move tiles in the desired direction.
-- **Swipe on Mobile:** Swipe left, right, up, or down to move tiles.
-- **Merging:** Tiles with the same number merge when they collide.
-- **Winning:** The goal is to **reach 2048**!
-- **Game Over:** The game ends when there are no valid moves left.
-
----
-
-## Project Structure
-
-```
-2048-game-in-reactjs/
-│── src/
-│   ├── components/       # Reusable components
-│   ├── App.js           # Main game logic
-│   ├── style.css        # Styling for the board and tiles
-│── public/
-│── package.json        # Dependencies and scripts
-│── README.md           # Project documentation
-```
-
----
 
 ## Technologies Used
 
